@@ -1,206 +1,346 @@
-[06Dec2024 15:11:11.652] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.12, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[06Dec2024 15:11:11.657] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Ubuntu; OS Linux arch aarch64 version 5.15.0-1070-oracle
-[06Dec2024 15:11:12.223] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[06Dec2024 15:11:12.280] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/ubuntu/Server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[06Dec2024 15:11:12.642] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ubuntu/Server/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.12/fmlcore-1.20.1-47.3.12.jar is missing mods.toml file
-[06Dec2024 15:11:12.643] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ubuntu/Server/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.12/javafmllanguage-1.20.1-47.3.12.jar is missing mods.toml file
-[06Dec2024 15:11:12.645] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ubuntu/Server/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.12/lowcodelanguage-1.20.1-47.3.12.jar is missing mods.toml file
-[06Dec2024 15:11:12.646] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ubuntu/Server/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.12/mclanguage-1.20.1-47.3.12.jar is missing mods.toml file
-[06Dec2024 15:11:12.832] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[06Dec2024 15:11:12.834] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
-[06Dec2024 15:11:14.631] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[06Dec2024 15:11:14.751] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[06Dec2024 15:11:16.579] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/equipment/armor/BacktankBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.equipment.armor.BacktankBlockEntity)
-[06Dec2024 15:11:16.579] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.equipment.armor.BacktankBlockEntity was not found jadeaddons.mixins.json:create.BacktankBlockEntityAccess
-[06Dec2024 15:11:16.681] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
-[06Dec2024 15:11:25.060] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.12, for MC 1.20.1 with MCP 20230612.114412
-[06Dec2024 15:11:25.060] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.12 Initialized
-[06Dec2024 15:11:25.436] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
-[06Dec2024 15:11:25.458] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 1 plugins
-[06Dec2024 15:11:29.728] [main/INFO] [Moonlight/]: Initialized block sets in 13ms
-[06Dec2024 15:11:30.688] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.4.10 initializing...
-[06Dec2024 15:11:30.704] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Additions' module.
-[06Dec2024 15:11:30.798] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/ubuntu/Server/config/storagenetwork.toml is not correct. Correcting
-[06Dec2024 15:11:30.814] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagenetwork.facades.itemsNotAllowed was corrected from [minecraft:ladder, minecraft:double_plant, minecraft:waterlily, minecraft:torch, minecraft:*_torch, minecraft:redstone, minecraft:iron_bars, minecraft:chest, minecraft:ender_chest, minecraft:sculk_vein, minecraft:string, minecraft:vine, minecraft:rail, minecraft:*_rail, minecraft:brewing_stand, minecraft:*_dripleaf, minecraft:*_pane, minecraft:*_sapling, minecraft:*_sign, minecraft:*_door, minecraft:*_banner, minecraft:*_shulker_box, cyclic:*_pipe, cyclic:*_bars, storagenetwork:*] to its default, [minecraft:ladder, minecraft:double_plant, minecraft:waterlily, minecraft:torch, minecraft:*_torch, minecraft:redstone, minecraft:iron_bars, minecraft:chest, minecraft:ender_chest, minecraft:sculk_vein, minecraft:string, minecraft:vine, minecraft:rail, minecraft:*_rail, minecraft:brewing_stand, minecraft:*_dripleaf, minecraft:*_pane, minecraft:*_sapling, minecraft:*_sign, minecraft:*_door, minecraft:*_banner, minecraft:*_shulker_box, cyclic:*_pipe, cyclic:*_bars, storagenetwork:*]. 
-[06Dec2024 15:11:30.932] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 136 crops
-[06Dec2024 15:11:30.932] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 6 crop tiers
-[06Dec2024 15:11:30.937] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 2 crop types
-[06Dec2024 15:11:30.938] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 55 augments
-[06Dec2024 15:11:30.939] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 20 mob soul types
-[06Dec2024 15:11:30.951] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
-[06Dec2024 15:11:30.952] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
-[06Dec2024 15:11:30.983] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
-[06Dec2024 15:11:31.141] [main/INFO] [Moonlight/]: Initialized color sets in 26ms
-[06Dec2024 15:11:31.264] [main/INFO] [journeymap/]: Initializing Packet Registries
-[06Dec2024 15:11:31.270] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
-[06Dec2024 15:11:31.272] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[06Dec2024 15:11:31.279] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.33 Target: null
-[06Dec2024 15:11:31.279] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.20.x/update.json
-[06Dec2024 15:11:31.286] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 8.0.0 Target: null
-[06Dec2024 15:11:31.286] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[06Dec2024 15:11:31.366] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[06Dec2024 15:11:31.388] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[06Dec2024 15:11:31.394] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[06Dec2024 15:11:31.396] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at appeng.integration.modules.jade.JadeModule
-[06Dec2024 15:11:31.414] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at mekanism.common.integration.lookingat.jade.MekanismJadePlugin
-[06Dec2024 15:11:31.417] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
-[06Dec2024 15:11:31.417] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
-[06Dec2024 15:11:31.418] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.JadeAddonsBase
-[06Dec2024 15:11:31.421] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.blakebr0.mysticalagriculture.compat.JadeCompat
-[06Dec2024 15:11:31.812] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
-[06Dec2024 15:11:31.813] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Starting version check at https://raw.githubusercontent.com/Lothrazar/Storage-Network/trunk/1.19/update.json
-[06Dec2024 15:11:31.821] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Found status: BETA Current: 1.11.3 Target: null
-[06Dec2024 15:11:31.821] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[06Dec2024 15:11:31.829] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.8.6 Target: null
-[06Dec2024 15:11:31.829] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[06Dec2024 15:11:32.168] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.3.12 Target: null
-[06Dec2024 15:11:32.168] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [colossalchests] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/colossal-chests.json
-[06Dec2024 15:11:32.177] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [colossalchests] Found status: UP_TO_DATE Current: 1.8.4 Target: null
-[06Dec2024 15:11:32.177] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclic] Starting version check at https://raw.githubusercontent.com/Lothrazar/cyclic/trunk/1.20.1/update.json
-[06Dec2024 15:11:32.196] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclic] Found status: BETA Current: 1.13.2 Target: 1.13.0
-[06Dec2024 15:11:38.275] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06Dec2024 15:11:41.296] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/ubuntu/Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23167!/assets/.mcassetsroot' uses unexpected schema
-[06Dec2024 15:11:41.296] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/ubuntu/Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23167!/data/.mcassetsroot' uses unexpected schema
-[06Dec2024 15:11:43.438] [main/INFO] [Cucumber Library/]: Registered 0 recipes in 0 ms
-[06Dec2024 15:11:43.750] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 51 recipes
-[06Dec2024 15:11:43.839] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement colossalchests:uncolossal: Failed to parse 'location' field
-[06Dec2024 15:11:43.905] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2380 advancements
-[06Dec2024 15:11:46.632] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 1 ms
-[06Dec2024 15:11:46.633] [main/INFO] [Mystical Agriculture/]: Recipe ingredient caching done in 1 ms
-[06Dec2024 15:11:46.772] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[06Dec2024 15:11:46.772] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[06Dec2024 15:11:46.772] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[06Dec2024 15:11:46.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[06Dec2024 15:11:46.845] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[06Dec2024 15:11:46.871] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[06Dec2024 15:11:46.964] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06Dec2024 15:11:46.964] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[06Dec2024 15:11:46.964] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06Dec2024 15:11:46.965] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[06Dec2024 15:11:46.982] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[06Dec2024 15:11:46.984] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[06Dec2024 15:11:47.097] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "Destiny 3"
-[06Dec2024 15:11:52.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[06Dec2024 15:11:56.673] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 15:11:56.690] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 15:11:56.705] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 15:11:56.730] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 15:11:56.767] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 15:11:56.780] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 15:11:56.784] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 15:11:56.795] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 15:11:56.817] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 15:11:56.835] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 15:11:57.117] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Dec2024 15:11:57.617] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[06Dec2024 15:11:58.153] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[06Dec2024 15:11:58.617] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
-[06Dec2024 15:11:59.038] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6922 ms
-[06Dec2024 15:11:59.039] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.060s)! For help, type "help"
-[06Dec2024 15:11:59.079] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[06Dec2024 15:11:59.129] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.TestPlots for plots
-[06Dec2024 15:11:59.134] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
-[06Dec2024 15:11:59.135] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
-[06Dec2024 15:11:59.143] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
-[06Dec2024 15:11:59.143] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
-[06Dec2024 15:11:59.144] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
-[06Dec2024 15:11:59.145] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
-[06Dec2024 15:11:59.146] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
-[06Dec2024 15:11:59.147] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
-[06Dec2024 15:11:59.147] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
-[06Dec2024 15:11:59.148] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
-[06Dec2024 15:11:59.148] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.SubnetPlots for plots
-[06Dec2024 15:11:59.149] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
-[06Dec2024 15:11:59.877] [Server thread/INFO] [chancecubes/]: Death and destruction prepared! (And Cookies. Cookies were also prepared.)
-[06Dec2024 15:11:59.879] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
-[06Dec2024 15:11:59.902] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[06Dec2024 15:11:59.902] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[06Dec2024 15:13:17.013] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@62b3407c[id=<null>,name=Radesh,properties={},legacy=false] (/187.121.12.247:59385) lost connection: Disconnected
-[06Dec2024 15:14:16.807] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@8fe4621[id=<null>,name=Radesh,properties={},legacy=false] (/187.121.12.247:59387) lost connection: Timed out
-[06Dec2024 15:14:37.772] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[06Dec2024 15:14:37.858] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkFenix707[/179.211.38.187:51921] logged in with entity id 377 at (-230.9054944927774, 63.0, -56.03394258296381)
-[06Dec2024 15:14:37.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkFenix707 joined the game
-[06Dec2024 15:14:38.062] [Server thread/INFO] [Jade/]: Syncing config to DarkFenix707 (c1dd97fd-610b-3236-bff1-df04b1966bb9)
-[06Dec2024 15:14:38.534] [Thread-20/INFO] [chancecubes/]: No custom rewards detected for the current user!
-[06Dec2024 15:14:40.080] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Radesh[/187.121.12.247:59392] logged in with entity id 530 at (-177.08440308790432, 64.0, -43.576443496456015)
-[06Dec2024 15:14:40.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Radesh joined the game
-[06Dec2024 15:14:40.208] [Server thread/INFO] [Jade/]: Syncing config to Radesh (d8b58453-09b6-3daa-bae6-a6838cab6259)
-[06Dec2024 15:14:40.394] [Thread-24/INFO] [chancecubes/]: No custom rewards detected for the current user!
-[06Dec2024 15:14:52.219] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Radesh lost connection: Disconnected
-[06Dec2024 15:14:52.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Radesh left the game
-[06Dec2024 15:15:02.515] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkFenix707 lost connection: Disconnected
-[06Dec2024 15:15:02.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkFenix707 left the game
-[06Dec2024 15:15:04.707] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@42e4aeff[id=<null>,name=Radesh,properties={},legacy=false] (/187.121.12.247:59406) lost connection: Disconnected
-[06Dec2024 15:15:09.830] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Radesh[/187.121.12.247:59408] logged in with entity id 584 at (-175.40027397437623, 64.0, -45.421992613350255)
-[06Dec2024 15:15:09.864] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Radesh joined the game
-[06Dec2024 15:15:09.912] [Server thread/INFO] [Jade/]: Syncing config to Radesh (d8b58453-09b6-3daa-bae6-a6838cab6259)
-[06Dec2024 15:15:09.964] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkFenix707[/179.211.38.187:51928] logged in with entity id 585 at (-230.9054944927774, 63.0, -56.03394258296381)
-[06Dec2024 15:15:09.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkFenix707 joined the game
-[06Dec2024 15:15:10.003] [Server thread/INFO] [Jade/]: Syncing config to DarkFenix707 (c1dd97fd-610b-3236-bff1-df04b1966bb9)
-[06Dec2024 15:15:10.362] [Thread-25/INFO] [chancecubes/]: No custom rewards detected for the current user!
-[06Dec2024 15:15:10.461] [Thread-26/INFO] [chancecubes/]: No custom rewards detected for the current user!
-[06Dec2024 15:15:20.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Radesh was killed
-[06Dec2024 15:15:21.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Radesh: Killed Radesh]
-[06Dec2024 15:15:21.124] [Server thread/INFO] [tombstone/]: The player Radesh has successfully been saved
-[06Dec2024 15:15:55.617] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Radesh lost connection: Disconnected
-[06Dec2024 15:15:55.619] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Radesh left the game
-[06Dec2024 15:18:05.035] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shiredu[/186.216.252.181:9645] logged in with entity id 1127 at (-167.4862322631586, 66.0, -8.154078069879489)
-[06Dec2024 15:18:05.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shiredu joined the game
-[06Dec2024 15:18:05.099] [Server thread/INFO] [Jade/]: Syncing config to Shiredu (eecf5797-5467-314e-8c5b-4d375324c620)
-[06Dec2024 15:18:05.553] [Thread-28/INFO] [chancecubes/]: No custom rewards detected for the current user!
-[06Dec2024 15:18:11.268] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shiredu lost connection: Disconnected
-[06Dec2024 15:18:11.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shiredu left the game
-[06Dec2024 15:18:18.476] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shiredu[/186.216.252.181:11047] logged in with entity id 1189 at (-167.4862322631586, 66.0, -8.154078069879489)
-[06Dec2024 15:18:18.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shiredu joined the game
-[06Dec2024 15:18:18.534] [Server thread/INFO] [Jade/]: Syncing config to Shiredu (eecf5797-5467-314e-8c5b-4d375324c620)
-[06Dec2024 15:18:18.980] [Thread-29/INFO] [chancecubes/]: No custom rewards detected for the current user!
-[06Dec2024 15:19:09.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Shiredu> zzz
-[06Dec2024 15:21:59.870] [Server thread/WARN] [net.minecraft.world.level.storage.PlayerDataStorage/]: Failed to save player data for DarkFenix707
-[06Dec2024 15:21:59.898] [Server thread/WARN] [net.minecraft.world.level.storage.PlayerDataStorage/]: Failed to save player data for Shiredu
-[06Dec2024 15:21:59.902] [Server thread/ERROR] [net.minecraft.stats.ServerStatsCounter/]: Couldn't save stats
-java.io.IOException: No space left on device
-	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
-	at java.io.FileOutputStream.write(FileOutputStream.java:346) ~[?:?]
-	at org.apache.commons.io.IOUtils.write(IOUtils.java:3251) ~[commons-io-2.11.0.jar%2379!/:2.11.0]
-	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:3541) ~[commons-io-2.11.0.jar%2379!/:2.11.0]
-	at org.apache.commons.io.FileUtils.writeStringToFile(FileUtils.java:3489) ~[commons-io-2.11.0.jar%2379!/:2.11.0]
-	at net.minecraft.stats.ServerStatsCounter.m_12818_(ServerStatsCounter.java:60) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at net.minecraft.server.players.PlayerList.m_6765_(PlayerList.java:335) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at net.minecraft.server.players.PlayerList.m_11302_(PlayerList.java:645) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at net.minecraft.server.MinecraftServer.m_195514_(MinecraftServer.java:531) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:824) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[06Dec2024 15:21:59.997] [Server thread/ERROR] [net.minecraft.world.level.storage.LevelStorageSource/]: Failed to save level ./Destiny 3
-java.io.IOException: No space left on device
-	at java.io.FileOutputStream.writeBytes(Native Method) ~[?:?]
-	at java.io.FileOutputStream.write(FileOutputStream.java:346) ~[?:?]
-	at java.util.zip.GZIPOutputStream.writeHeader(GZIPOutputStream.java:191) ~[?:?]
-	at java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:97) ~[?:?]
-	at java.util.zip.GZIPOutputStream.<init>(GZIPOutputStream.java:112) ~[?:?]
-	at net.minecraft.nbt.NbtIo.m_128947_(NbtIo.java:61) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at net.minecraft.nbt.NbtIo.m_128944_(NbtIo.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.m_78290_(LevelStorageSource.java:475) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at net.minecraft.server.MinecraftServer.m_129885_(MinecraftServer.java:515) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at net.minecraft.server.MinecraftServer.m_195514_(MinecraftServer.java:532) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:824) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23167!/:?[06Dec2024 15:40:22.374] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkFenix707 lost connection: Disconnected
-[06Dec2024 15:40:22.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkFenix707 left the game
-[06Dec2024 15:40:27.617] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Shiredu lost connection: Disconnected
-[06Dec2024 15:40:27.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shiredu left the game
-[06Dec2024 15:40:28.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[06Dec2024 15:40:28.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06Dec2024 15:40:28.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06Dec2024 15:40:28.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[06Dec2024 15:40:28.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Destiny 3]'/minecraft:overworld
-[06Dec2024 15:40:28.981] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Destiny 3]'/minecraft:the_nether
-[06Dec2024 15:40:28.984] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Destiny 3]'/minecraft:the_end
-[06Dec2024 15:40:28.985] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Destiny 3]'/ae2:spatial_storage
-[06Dec2024 15:40:29.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Destiny 3): All chunks are saved
-[06Dec2024 15:40:29.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06Dec2024 15:40:29.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06Dec2024 15:40:29.021] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
-[06Dec2024 15:40:29.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06Dec2024 15:40:29.100] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[10Dec2024 09:49:43.309] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.12, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[10Dec2024 09:49:43.315] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.5 by Ubuntu; OS Linux arch aarch64 version 5.15.0-1070-oracle
+[10Dec2024 09:49:43.808] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[10Dec2024 09:49:43.867] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/home/ubuntu/Server/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[10Dec2024 09:49:44.223] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ubuntu/Server/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.12/fmlcore-1.20.1-47.3.12.jar is missing mods.toml file
+[10Dec2024 09:49:44.225] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ubuntu/Server/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.12/javafmllanguage-1.20.1-47.3.12.jar is missing mods.toml file
+[10Dec2024 09:49:44.226] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ubuntu/Server/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.12/lowcodelanguage-1.20.1-47.3.12.jar is missing mods.toml file
+[10Dec2024 09:49:44.228] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /home/ubuntu/Server/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.12/mclanguage-1.20.1-47.3.12.jar is missing mods.toml file
+[10Dec2024 09:49:44.414] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[10Dec2024 09:49:44.415] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 3 dependencies adding them to mods collection
+[10Dec2024 09:49:46.583] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[10Dec2024 09:49:46.686] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[10Dec2024 09:49:48.442] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/equipment/armor/BacktankBlockEntity (java.lang.ClassNotFoundException: com.simibubi.create.content.equipment.armor.BacktankBlockEntity)
+[10Dec2024 09:49:48.443] [main/WARN] [mixin/]: @Mixin target com.simibubi.create.content.equipment.armor.BacktankBlockEntity was not found jadeaddons.mixins.json:create.BacktankBlockEntityAccess
+[10Dec2024 09:49:48.522] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.6).
+[10Dec2024 09:49:56.818] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.12, for MC 1.20.1 with MCP 20230612.114412
+[10Dec2024 09:49:56.818] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.12 Initialized
+[10Dec2024 09:49:57.245] [modloading-worker-0/INFO] [Mystical Agriculture/]: Registered plugin: com.blakebr0.mysticalagriculture.lib.ModCorePlugin
+[10Dec2024 09:49:57.275] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 1 plugins
+[10Dec2024 09:50:01.831] [main/INFO] [Moonlight/]: Initialized block sets in 14ms
+[10Dec2024 09:50:02.899] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Loaded 'Mekanism: Additions' module.
+[10Dec2024 09:50:02.898] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Version 10.4.10 initializing...
+[10Dec2024 09:50:02.992] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /home/ubuntu/Server/config/storagenetwork.toml is not correct. Correcting
+[10Dec2024 09:50:03.010] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key storagenetwork.facades.itemsNotAllowed was corrected from [minecraft:ladder, minecraft:double_plant, minecraft:waterlily, minecraft:torch, minecraft:*_torch, minecraft:redstone, minecraft:iron_bars, minecraft:chest, minecraft:ender_chest, minecraft:sculk_vein, minecraft:string, minecraft:vine, minecraft:rail, minecraft:*_rail, minecraft:brewing_stand, minecraft:*_dripleaf, minecraft:*_pane, minecraft:*_sapling, minecraft:*_sign, minecraft:*_door, minecraft:*_banner, minecraft:*_shulker_box, cyclic:*_pipe, cyclic:*_bars, storagenetwork:*] to its default, [minecraft:ladder, minecraft:double_plant, minecraft:waterlily, minecraft:torch, minecraft:*_torch, minecraft:redstone, minecraft:iron_bars, minecraft:chest, minecraft:ender_chest, minecraft:sculk_vein, minecraft:string, minecraft:vine, minecraft:rail, minecraft:*_rail, minecraft:brewing_stand, minecraft:*_dripleaf, minecraft:*_pane, minecraft:*_sapling, minecraft:*_sign, minecraft:*_door, minecraft:*_banner, minecraft:*_shulker_box, cyclic:*_pipe, cyclic:*_bars, storagenetwork:*]. 
+[10Dec2024 09:50:03.122] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 136 crops
+[10Dec2024 09:50:03.122] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 6 crop tiers
+[10Dec2024 09:50:03.123] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 2 crop types
+[10Dec2024 09:50:03.123] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 55 augments
+[10Dec2024 09:50:03.124] [modloading-worker-0/INFO] [Mystical Agriculture/]: Loaded 20 mob soul types
+[10Dec2024 09:50:03.135] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Fake player readout: UUID = 46e82cd0-d480-3d48-800a-77431ede078e, name = [Mekanism]
+[10Dec2024 09:50:03.135] [modloading-worker-0/INFO] [mekanism.common.Mekanism/]: Mod loaded.
+[10Dec2024 09:50:03.257] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/cyclops-core.json
+[10Dec2024 09:50:03.333] [main/INFO] [Moonlight/]: Initialized color sets in 27ms
+[10Dec2024 09:50:03.367] [main/INFO] [journeymap/]: Initializing Packet Registries
+[10Dec2024 09:50:03.571] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[10Dec2024 09:50:03.577] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclopscore] Found status: UP_TO_DATE Current: 1.19.5 Target: null
+[10Dec2024 09:50:03.581] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[10Dec2024 09:50:03.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.33 Target: null
+[10Dec2024 09:50:03.592] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.20.x/update.json
+[10Dec2024 09:50:03.602] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 8.0.0 Target: null
+[10Dec2024 09:50:03.602] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[10Dec2024 09:50:03.610] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[10Dec2024 09:50:03.617] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[10Dec2024 09:50:03.620] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at appeng.integration.modules.jade.JadeModule
+[10Dec2024 09:50:03.638] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at mekanism.common.integration.lookingat.jade.MekanismJadePlugin
+[10Dec2024 09:50:03.642] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at net.blay09.mods.waystones.compat.JadeIntegration
+[10Dec2024 09:50:03.643] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ovh.corail.tombstone.compatibility.IntegrationJade
+[10Dec2024 09:50:03.643] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.JadeAddonsBase
+[10Dec2024 09:50:03.646] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.blakebr0.mysticalagriculture.compat.JadeCompat
+[10Dec2024 09:50:04.118] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.10.3 Target: null
+[10Dec2024 09:50:04.118] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Starting version check at https://raw.githubusercontent.com/Lothrazar/Storage-Network/trunk/1.19/update.json
+[10Dec2024 09:50:04.128] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [storagenetwork] Found status: BETA Current: 1.11.3 Target: null
+[10Dec2024 09:50:04.128] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[10Dec2024 09:50:04.324] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: UP_TO_DATE Current: 8.8.6 Target: null
+[10Dec2024 09:50:04.324] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[10Dec2024 09:50:04.719] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 47.3.12 Target: null
+[10Dec2024 09:50:04.719] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [colossalchests] Starting version check at https://raw.githubusercontent.com/CyclopsMC/Versions/master/forge_update/colossal-chests.json
+[10Dec2024 09:50:04.847] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [colossalchests] Found status: UP_TO_DATE Current: 1.8.4 Target: null
+[10Dec2024 09:50:04.847] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclic] Starting version check at https://raw.githubusercontent.com/Lothrazar/cyclic/trunk/1.20.1/update.json
+[10Dec2024 09:50:04.866] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cyclic] Found status: BETA Current: 1.13.2 Target: 1.13.0
+[10Dec2024 09:50:09.989] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[10Dec2024 09:50:13.116] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/ubuntu/Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23167!/assets/.mcassetsroot' uses unexpected schema
+[10Dec2024 09:50:13.116] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/home/ubuntu/Server/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23167!/data/.mcassetsroot' uses unexpected schema
+[10Dec2024 09:50:15.523] [main/INFO] [Cucumber Library/]: Registered 0 recipes in 0 ms
+[10Dec2024 09:50:15.836] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 51 recipes
+[10Dec2024 09:50:15.922] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement colossalchests:uncolossal: Failed to parse 'location' field
+[10Dec2024 09:50:15.989] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2380 advancements
+[10Dec2024 09:50:18.672] [main/INFO] [Cucumber Library/]: Loaded cucumber-tags.json in 1 ms
+[10Dec2024 09:50:18.674] [main/INFO] [Mystical Agriculture/]: Recipe ingredient caching done in 1 ms
+[10Dec2024 09:50:18.776] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[10Dec2024 09:50:18.776] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[10Dec2024 09:50:18.777] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[10Dec2024 09:50:18.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[10Dec2024 09:50:18.864] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[10Dec2024 09:50:18.899] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[10Dec2024 09:50:19.001] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10Dec2024 09:50:19.002] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[10Dec2024 09:50:19.002] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10Dec2024 09:50:19.003] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[10Dec2024 09:50:19.031] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[10Dec2024 09:50:19.032] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[10Dec2024 09:50:19.034] [Thread-1/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[10Dec2024 09:50:19.179] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "Destiny 3"
+[10Dec2024 09:50:24.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[10Dec2024 09:50:29.548] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Dec2024 09:50:29.596] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Dec2024 09:50:29.635] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Dec2024 09:50:29.654] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Dec2024 09:50:29.688] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Dec2024 09:50:29.737] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Dec2024 09:50:29.858] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Dec2024 09:50:29.889] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Dec2024 09:50:29.904] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Dec2024 09:50:29.925] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Dec2024 09:50:29.940] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Dec2024 09:50:29.942] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[10Dec2024 09:50:30.315] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
+[10Dec2024 09:50:30.814] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 65%
+[10Dec2024 09:50:31.315] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[10Dec2024 09:50:31.814] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
+[10Dec2024 09:50:31.876] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7563 ms
+[10Dec2024 09:50:31.877] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.852s)! For help, type "help"
+[10Dec2024 09:50:31.923] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[10Dec2024 09:50:31.972] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.TestPlots for plots
+[10Dec2024 09:50:31.978] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.AutoCraftingTestPlots for plots
+[10Dec2024 09:50:31.979] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.InscriberTestPlots for plots
+[10Dec2024 09:50:31.989] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.P2PTestPlots for plots
+[10Dec2024 09:50:31.990] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.ItemP2PTestPlots for plots
+[10Dec2024 09:50:31.991] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.MemoryCardTestPlots for plots
+[10Dec2024 09:50:31.992] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.PatternProviderLockModePlots for plots
+[10Dec2024 09:50:31.994] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.PatternProviderPlots for plots
+[10Dec2024 09:50:31.994] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.SpatialTestPlots for plots
+[10Dec2024 09:50:31.995] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.QnbTestPlots for plots
+[10Dec2024 09:50:31.995] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.GuidebookPlot for plots
+[10Dec2024 09:50:31.996] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.SubnetPlots for plots
+[10Dec2024 09:50:31.997] [Server thread/INFO] [AE2:S/]: Scanning class appeng.server.testplots.AnnihilationPlaneTests for plots
+[10Dec2024 09:50:32.688] [Server thread/INFO] [chancecubes/]: Death and destruction prepared! (And Cookies. Cookies were also prepared.)
+[10Dec2024 09:50:32.689] [Server thread/INFO] [cyclopscore/]: Loading infobook /data/cyclopscore/info/test.xml
+[10Dec2024 09:50:32.711] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[10Dec2024 09:50:32.711] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[10Dec2024 09:50:33.177] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[10Dec2024 10:11:14.506] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Radesh[/187.121.12.247:50804] logged in with entity id 574 at (-72.52096783218417, 98.0, 45.602454356836816)
+[10Dec2024 10:11:14.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Radesh joined the game
+[10Dec2024 10:11:15.190] [Server thread/INFO] [Jade/]: Syncing config to Radesh (d8b58453-09b6-3daa-bae6-a6838cab6259)
+[10Dec2024 10:11:15.702] [Thread-22/INFO] [chancecubes/]: No custom rewards detected for the current user!
+[10Dec2024 10:19:54.332] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Radesh lost connection: Disconnected
+[10Dec2024 10:19:54.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Radesh left the game
+[10Dec2024 10:57:40.810] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Ferdnand21[/186.233.221.21:6744] logged in with entity id 2670 at (-79.27503231676434, 75.0, -65.96603610862913)
+[10Dec2024 10:57:40.824] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferdnand21 joined the game
+[10Dec2024 10:57:40.877] [Server thread/INFO] [Jade/]: Syncing config to Ferdnand21 (52fec0d1-6ca2-3804-b9b6-df85d76b8503)
+[10Dec2024 10:57:41.397] [Thread-37/INFO] [chancecubes/]: No custom rewards detected for the current user!
+[10Dec2024 11:13:46.195] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ferdnand21 moved too quickly! 108.70538077984094,3.5,-132.0649196545534
+[10Dec2024 11:14:10.247] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ferdnand21 moved too quickly! -104.55622107579664,-2.5,129.81606787007848
+[10Dec2024 11:39:26.601] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] ola
+[10Dec2024 11:39:35.584] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] oq fez de bom ai?
+[10Dec2024 11:40:14.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferdnand21> uga
+[10Dec2024 11:40:43.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Ferdnand21> progredimentos para a casa e o futuro E.L.M.O
+[10Dec2024 11:42:41.283] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Ferdnand21 lost connection: Disconnected
+[10Dec2024 11:42:41.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Ferdnand21 left the game
+[10Dec2024 13:30:28.273] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: DarkFenix707[/179.211.38.187:52394] logged in with entity id 11893 at (-242.343954698695, 63.5, -72.61262133292311)
+[10Dec2024 13:30:28.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkFenix707 joined the game
+[10Dec2024 13:30:28.332] [Server thread/INFO] [Jade/]: Syncing config to DarkFenix707 (c1dd97fd-610b-3236-bff1-df04b1966bb9)
+[10Dec2024 13:30:28.798] [Thread-79/INFO] [chancecubes/]: No custom rewards detected for the current user!
+[10Dec2024 13:36:09.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkFenix707 has made the advancement [The City at the End of the Game]
+[10Dec2024 13:43:02.578] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkFenix707 has reached the goal [Sky's the Limit]
+[10Dec2024 13:58:54.767] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:pssst
+[10Dec2024 13:59:02.912] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:hand_enchant
+[10Dec2024 13:59:17.812] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:anvil_rain
+[10Dec2024 13:59:24.912] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:monty_hall
+[10Dec2024 13:59:35.512] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:lava_ring
+[10Dec2024 13:59:42.362] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:fire_aspect_fire
+[10Dec2024 13:59:54.012] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:tic_tac_toe
+[10Dec2024 14:00:35.862] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:armor_stand_armor
+[10Dec2024 14:00:43.412] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:boss_ravager
+[10Dec2024 14:01:43.162] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:dark_o_the_wise
+[10Dec2024 14:01:53.962] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:invisible_ghasts
+[10Dec2024 14:02:02.378] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity ZombieVillager['Dark-O-The-Wise'/19797, l='ServerLevel[Destiny 3]', x=-118.40, y=64.00, z=-256.97] died: Dark-O-The-Wise burned to death
+[10Dec2024 14:02:04.312] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:chance_cube_cube
+[10Dec2024 14:02:07.012] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:fireworks
+[10Dec2024 14:02:11.062] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:half_heart
+[10Dec2024 14:02:24.811] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:silverfish_surround
+[10Dec2024 14:02:46.662] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:coal_to_diamonds
+[10Dec2024 14:02:57.862] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:tnt_cat
+[10Dec2024 14:03:04.612] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:item_rename
+[10Dec2024 14:03:15.412] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:nether_jelly_fish
+[10Dec2024 14:03:21.193] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20120, l='ServerLevel[Destiny 3]', x=-112.74, y=65.64, z=-272.76] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:27.497] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20130, l='ServerLevel[Destiny 3]', x=-113.33, y=63.40, z=-264.47] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:27.500] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20132, l='ServerLevel[Destiny 3]', x=-110.31, y=65.04, z=-267.74] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:32.190] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20229, l='ServerLevel[Destiny 3]', x=-109.22, y=64.00, z=-269.50] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:33.197] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20228, l='ServerLevel[Destiny 3]', x=-112.51, y=64.00, z=-269.42] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:33.199] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20252, l='ServerLevel[Destiny 3]', x=-111.41, y=64.50, z=-269.34] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:33.200] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20253, l='ServerLevel[Destiny 3]', x=-110.91, y=64.50, z=-269.34] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:33.201] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20230, l='ServerLevel[Destiny 3]', x=-109.67, y=64.00, z=-267.93] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:35.590] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20191, l='ServerLevel[Destiny 3]', x=-112.51, y=63.00, z=-275.13] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:35.592] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20190, l='ServerLevel[Destiny 3]', x=-113.20, y=63.00, z=-273.89] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:37.794] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20267, l='ServerLevel[Destiny 3]', x=-111.06, y=64.00, z=-266.04] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:37.795] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20264, l='ServerLevel[Destiny 3]', x=-114.01, y=64.00, z=-268.52] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:39.741] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20265, l='ServerLevel[Destiny 3]', x=-110.74, y=64.00, z=-267.15] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:39.742] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20266, l='ServerLevel[Destiny 3]', x=-110.17, y=64.00, z=-267.52] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:42.290] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20304, l='ServerLevel[Destiny 3]', x=-115.13, y=63.00, z=-275.80] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:43.591] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20303, l='ServerLevel[Destiny 3]', x=-114.36, y=63.00, z=-277.10] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:43.593] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20300, l='ServerLevel[Destiny 3]', x=-116.42, y=63.00, z=-274.65] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:43.594] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20301, l='ServerLevel[Destiny 3]', x=-115.34, y=63.00, z=-274.57] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:43.595] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20302, l='ServerLevel[Destiny 3]', x=-115.17, y=63.00, z=-276.93] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:43.597] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20305, l='ServerLevel[Destiny 3]', x=-114.34, y=63.00, z=-276.02] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:45.450] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20118, l='ServerLevel[Destiny 3]', x=-120.20, y=64.76, z=-265.24] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:45.452] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20124, l='ServerLevel[Destiny 3]', x=-117.79, y=65.98, z=-269.45] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:48.298] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20227, l='ServerLevel[Destiny 3]', x=-114.02, y=62.00, z=-266.97] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:48.300] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20138, l='ServerLevel[Destiny 3]', x=-119.19, y=60.71, z=-261.19] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:48.301] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20380, l='ServerLevel[Destiny 3]', x=-119.66, y=61.00, z=-268.37] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:48.302] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20122, l='ServerLevel[Destiny 3]', x=-116.53, y=61.41, z=-264.67] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:49.950] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20400, l='ServerLevel[Destiny 3]', x=-115.13, y=63.32, z=-266.74] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:49.952] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20401, l='ServerLevel[Destiny 3]', x=-113.53, y=63.46, z=-266.46] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:49.953] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20402, l='ServerLevel[Destiny 3]', x=-114.51, y=62.39, z=-265.32] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:49.954] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20405, l='ServerLevel[Destiny 3]', x=-115.66, y=62.21, z=-261.52] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:49.955] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20403, l='ServerLevel[Destiny 3]', x=-115.92, y=62.21, z=-263.03] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:51.237] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20382, l='ServerLevel[Destiny 3]', x=-119.13, y=59.04, z=-265.36] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:51.239] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20404, l='ServerLevel[Destiny 3]', x=-113.52, y=61.00, z=-263.25] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:51.240] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20407, l='ServerLevel[Destiny 3]', x=-115.05, y=61.00, z=-267.74] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:51.241] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20410, l='ServerLevel[Destiny 3]', x=-119.30, y=60.00, z=-268.27] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:51.242] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20436, l='ServerLevel[Destiny 3]', x=-114.25, y=60.35, z=-264.74] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:51.243] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20437, l='ServerLevel[Destiny 3]', x=-113.27, y=60.35, z=-264.74] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:51.243] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20438, l='ServerLevel[Destiny 3]', x=-114.15, y=61.00, z=-264.15] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:51.244] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20226, l='ServerLevel[Destiny 3]', x=-116.00, y=60.00, z=-266.55] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:53.391] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20381, l='ServerLevel[Destiny 3]', x=-121.29, y=58.00, z=-265.28] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:53.392] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20383, l='ServerLevel[Destiny 3]', x=-118.61, y=57.00, z=-262.58] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:53.393] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20463, l='ServerLevel[Destiny 3]', x=-120.76, y=58.00, z=-266.74] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:53.394] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20464, l='ServerLevel[Destiny 3]', x=-119.53, y=58.00, z=-266.20] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:53.395] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20465, l='ServerLevel[Destiny 3]', x=-119.75, y=57.00, z=-265.34] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:53.396] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20384, l='ServerLevel[Destiny 3]', x=-117.76, y=57.00, z=-264.78] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:54.738] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20486, l='ServerLevel[Destiny 3]', x=-121.08, y=58.95, z=-265.87] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:54.739] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20487, l='ServerLevel[Destiny 3]', x=-120.54, y=57.52, z=-263.29] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:54.740] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20488, l='ServerLevel[Destiny 3]', x=-119.81, y=57.95, z=-262.86] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:54.741] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20489, l='ServerLevel[Destiny 3]', x=-120.49, y=57.52, z=-262.26] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:54.741] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20490, l='ServerLevel[Destiny 3]', x=-118.16, y=57.95, z=-265.74] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:54.742] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20225, l='ServerLevel[Destiny 3]', x=-121.64, y=58.00, z=-262.43] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:56.944] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20492, l='ServerLevel[Destiny 3]', x=-118.46, y=57.00, z=-263.98] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:58.044] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20491, l='ServerLevel[Destiny 3]', x=-117.32, y=57.00, z=-265.14] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:58.045] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20502, l='ServerLevel[Destiny 3]', x=-122.64, y=58.00, z=-263.62] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:58.046] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20503, l='ServerLevel[Destiny 3]', x=-121.41, y=58.00, z=-263.35] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:58.047] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20504, l='ServerLevel[Destiny 3]', x=-122.01, y=58.00, z=-262.53] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:58.049] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20379, l='ServerLevel[Destiny 3]', x=-119.61, y=57.00, z=-265.48] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:59.346] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20483, l='ServerLevel[Destiny 3]', x=-121.55, y=58.00, z=-265.27] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:59.347] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20484, l='ServerLevel[Destiny 3]', x=-121.30, y=58.00, z=-265.92] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:03:59.348] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20485, l='ServerLevel[Destiny 3]', x=-121.19, y=58.00, z=-264.25] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:00.648] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20430, l='ServerLevel[Destiny 3]', x=-117.26, y=57.00, z=-264.94] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:00.649] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20516, l='ServerLevel[Destiny 3]', x=-118.80, y=57.00, z=-265.50] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:00.650] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20517, l='ServerLevel[Destiny 3]', x=-118.09, y=57.00, z=-265.54] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:02.001] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20408, l='ServerLevel[Destiny 3]', x=-114.84, y=61.00, z=-266.95] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:02.003] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20428, l='ServerLevel[Destiny 3]', x=-115.21, y=60.00, z=-265.79] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:02.004] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20429, l='ServerLevel[Destiny 3]', x=-114.66, y=60.00, z=-266.67] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:02.004] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20434, l='ServerLevel[Destiny 3]', x=-116.04, y=60.00, z=-265.09] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:02.005] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20435, l='ServerLevel[Destiny 3]', x=-115.45, y=60.75, z=-264.21] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:02.006] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20439, l='ServerLevel[Destiny 3]', x=-114.50, y=60.00, z=-264.70] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:02.006] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20440, l='ServerLevel[Destiny 3]', x=-116.10, y=61.84, z=-262.75] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:02.007] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20443, l='ServerLevel[Destiny 3]', x=-114.80, y=60.00, z=-261.22] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:02.008] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20461, l='ServerLevel[Destiny 3]', x=-116.27, y=60.00, z=-266.93] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:02.009] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20466, l='ServerLevel[Destiny 3]', x=-115.93, y=60.00, z=-264.06] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:02.010] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20467, l='ServerLevel[Destiny 3]', x=-115.35, y=60.00, z=-263.31] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:02.010] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20468, l='ServerLevel[Destiny 3]', x=-115.13, y=60.52, z=-262.40] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:02.011] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20128, l='ServerLevel[Destiny 3]', x=-117.50, y=60.01, z=-263.42] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:03.086] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20442, l='ServerLevel[Destiny 3]', x=-116.64, y=58.00, z=-260.97] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:03.087] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20406, l='ServerLevel[Destiny 3]', x=-117.84, y=57.62, z=-261.99] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:04.144] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20431, l='ServerLevel[Destiny 3]', x=-117.76, y=58.00, z=-266.31] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:04.145] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20559, l='ServerLevel[Destiny 3]', x=-116.76, y=58.50, z=-261.28] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:04.146] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20560, l='ServerLevel[Destiny 3]', x=-116.26, y=58.50, z=-261.28] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:04.146] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20433, l='ServerLevel[Destiny 3]', x=-117.21, y=58.00, z=-264.50] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:05.297] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20541, l='ServerLevel[Destiny 3]', x=-115.69, y=60.00, z=-261.78] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:05.298] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20542, l='ServerLevel[Destiny 3]', x=-119.19, y=60.00, z=-259.98] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:05.299] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20543, l='ServerLevel[Destiny 3]', x=-114.98, y=60.00, z=-260.74] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:05.300] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20540, l='ServerLevel[Destiny 3]', x=-117.13, y=59.00, z=-262.67] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:07.238] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20561, l='ServerLevel[Destiny 3]', x=-117.59, y=58.00, z=-260.72] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:08.291] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20562, l='ServerLevel[Destiny 3]', x=-115.44, y=58.00, z=-260.26] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:08.293] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20581, l='ServerLevel[Destiny 3]', x=-116.91, y=58.00, z=-262.02] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:08.293] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20583, l='ServerLevel[Destiny 3]', x=-117.39, y=58.00, z=-259.73] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:08.295] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20588, l='ServerLevel[Destiny 3]', x=-118.28, y=58.00, z=-260.39] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:08.295] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20582, l='ServerLevel[Destiny 3]', x=-116.25, y=58.00, z=-260.42] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:09.446] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20590, l='ServerLevel[Destiny 3]', x=-116.36, y=58.81, z=-261.37] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:10.398] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20441, l='ServerLevel[Destiny 3]', x=-115.35, y=60.00, z=-262.20] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:10.401] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20584, l='ServerLevel[Destiny 3]', x=-114.61, y=60.00, z=-260.92] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:12.037] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20585, l='ServerLevel[Destiny 3]', x=-115.20, y=60.00, z=-261.06] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:12.989] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20592, l='ServerLevel[Destiny 3]', x=-116.35, y=58.00, z=-260.55] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:12.990] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20586, l='ServerLevel[Destiny 3]', x=-115.72, y=58.00, z=-260.40] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:13.941] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20591, l='ServerLevel[Destiny 3]', x=-115.53, y=60.00, z=-262.07] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:16.147] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20409, l='ServerLevel[Destiny 3]', x=-119.06, y=58.12, z=-265.01] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:16.148] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20589, l='ServerLevel[Destiny 3]', x=-118.22, y=58.00, z=-261.27] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:16.149] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20462, l='ServerLevel[Destiny 3]', x=-116.95, y=58.00, z=-264.26] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:18.050] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20263, l='ServerLevel[Destiny 3]', x=-116.00, y=60.00, z=-267.39] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:18.052] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20432, l='ServerLevel[Destiny 3]', x=-116.19, y=60.00, z=-264.93] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:22.601] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20587, l='ServerLevel[Destiny 3]', x=-119.30, y=58.00, z=-261.45] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:29.339] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20126, l='ServerLevel[Destiny 3]', x=-112.46, y=64.79, z=-267.60] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:34.649] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20679, l='ServerLevel[Destiny 3]', x=-107.88, y=64.00, z=-269.93] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:35.751] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20724, l='ServerLevel[Destiny 3]', x=-110.06, y=64.42, z=-270.75] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:35.752] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20725, l='ServerLevel[Destiny 3]', x=-109.48, y=64.42, z=-270.75] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:35.753] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20678, l='ServerLevel[Destiny 3]', x=-110.83, y=64.00, z=-269.25] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:37.692] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20730, l='ServerLevel[Destiny 3]', x=-113.76, y=64.32, z=-269.25] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:37.693] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20732, l='ServerLevel[Destiny 3]', x=-112.72, y=64.32, z=-268.93] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:37.694] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20733, l='ServerLevel[Destiny 3]', x=-111.70, y=64.00, z=-267.73] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:37.695] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20731, l='ServerLevel[Destiny 3]', x=-111.75, y=64.00, z=-269.82] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:41.850] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20134, l='ServerLevel[Destiny 3]', x=-151.71, y=69.22, z=-254.98] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:43.998] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20799, l='ServerLevel[Destiny 3]', x=-152.89, y=67.04, z=-261.40] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:44.000] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20800, l='ServerLevel[Destiny 3]', x=-151.23, y=66.54, z=-260.31] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:44.001] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20801, l='ServerLevel[Destiny 3]', x=-153.61, y=67.04, z=-258.73] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:47.442] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20826, l='ServerLevel[Destiny 3]', x=-154.33, y=66.00, z=-260.63] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:47.444] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20827, l='ServerLevel[Destiny 3]', x=-152.08, y=66.00, z=-261.11] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:47.444] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20829, l='ServerLevel[Destiny 3]', x=-152.02, y=66.00, z=-258.98] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:47.446] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20828, l='ServerLevel[Destiny 3]', x=-153.44, y=66.00, z=-259.14] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:50.300] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20822, l='ServerLevel[Destiny 3]', x=-151.46, y=64.00, z=-263.18] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:51.153] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20824, l='ServerLevel[Destiny 3]', x=-150.64, y=65.00, z=-262.18] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:52.140] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20821, l='ServerLevel[Destiny 3]', x=-151.75, y=64.52, z=-264.56] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:52.142] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20823, l='ServerLevel[Destiny 3]', x=-152.74, y=64.00, z=-263.79] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:04:54.593] [Server thread/INFO] [net.minecraft.world.entity.LivingEntity/]: Named entity MagmaCube['Nether Jelly Fish'/20825, l='ServerLevel[Destiny 3]', x=-148.99, y=64.00, z=-263.02] died: Nether Jelly Fish was slain by DarkFenix707
+[10Dec2024 14:05:06.662] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:giga_breaker
+[10Dec2024 14:05:21.362] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:smite
+[10Dec2024 14:05:28.012] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:chat_message
+[10Dec2024 14:05:36.412] [Server thread/INFO] [chancecubes/]: Triggered the reward with the name of: chancecubes:invisible_vexes
+[10Dec2024 14:11:21.477] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkFenix707 moved too quickly! 1.5403221090749355,137.5,445.619261947961
+[10Dec2024 14:12:39.623] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved too quickly! 2.834139049217555,0.0,10.747605339245638
+[10Dec2024 14:12:39.626] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved too quickly! 3.403921901557567,0.0,12.897268426544542
+[10Dec2024 14:12:39.626] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved too quickly! 3.9744303958294296,0.0,15.046966388220994
+[10Dec2024 14:12:39.626] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved too quickly! 4.545578906285186,0.0,17.196695109098528
+[10Dec2024 14:12:39.627] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved too quickly! 5.11729191101513,0.0,19.34645095959138
+[10Dec2024 14:12:39.627] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved too quickly! 5.689502799694907,0.0,21.49623073840496
+[10Dec2024 14:12:39.627] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved too quickly! 6.26215282201845,0.0,23.646031621997395
+[10Dec2024 14:12:39.652] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved too quickly! 2.8382162583536257,0.0,10.747794762111425
+[10Dec2024 14:20:13.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkFenix707 has made the advancement [Another Brick in the Wall]
+[10Dec2024 14:23:17.224] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[10Dec2024 14:30:26.039] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 0.3313227399939933
+[10Dec2024 14:34:29.524] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 0.27771487447216714
+[10Dec2024 14:34:29.530] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 1.259848828108261
+[10Dec2024 14:34:29.579] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 0.3803525616913248
+[10Dec2024 14:34:29.628] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 0.3994957099989733
+[10Dec2024 14:34:29.697] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 0.4097388269847215
+[10Dec2024 14:34:29.744] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 0.41521971465863317
+[10Dec2024 14:34:29.793] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 0.5050237183454556
+[10Dec2024 14:34:29.840] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 0.5530760502197154
+[10Dec2024 14:34:29.893] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 1.7779956004205815
+[10Dec2024 14:34:29.940] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 0.6057076153224443
+[10Dec2024 14:34:29.984] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 0.6155240276334553
+[10Dec2024 14:34:30.040] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 0.6207765941430807
+[10Dec2024 14:34:30.079] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 0.6235871377575677
+[10Dec2024 14:36:04.271] [Server thread/WARN] [net.minecraft.world.level.entity.PersistentEntitySectionManager/]: UUID of added entity already exists: EntityDragonPart['Dragon Part'/41677, l='ServerLevel[Destiny 3]', x=1956.60, y=203.32, z=3823.96]
+[10Dec2024 14:39:50.139] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkFenix707 has made the advancement [Book of Monsters]
+[10Dec2024 14:40:51.989] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkFenix707 has made the advancement [Would you Like to Know More?]
+[10Dec2024 14:42:36.360] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkFenix707 moved wrongly!
+[10Dec2024 14:43:38.688] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Nebula (vehicle of DarkFenix707) moved wrongly! 0.36108955742702165
+[10Dec2024 14:44:50.137] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Shiredu[/186.216.252.40:5042] logged in with entity id 52517 at (-126.27550695594155, 66.0, -14.6729854150541)
+[10Dec2024 14:44:50.152] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shiredu joined the game
+[10Dec2024 14:44:50.210] [Server thread/INFO] [Jade/]: Syncing config to Shiredu (eecf5797-5467-314e-8c5b-4d375324c620)
+[10Dec2024 14:44:51.826] [Thread-129/INFO] [chancecubes/]: No custom rewards detected for the current user!
+[10Dec2024 15:00:04.846] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: DarkFenix707 lost connection: Disconnected
+[10Dec2024 15:00:04.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: DarkFenix707 left the game
+[10Dec2024 15:02:42.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[10Dec2024 15:02:42.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[10Dec2024 15:02:42.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[10Dec2024 15:02:42.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[10Dec2024 15:02:42.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Destiny 3]'/minecraft:overworld
+[10Dec2024 15:02:43.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Destiny 3]'/minecraft:the_end
+[10Dec2024 15:02:43.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Destiny 3]'/minecraft:the_nether
+[10Dec2024 15:02:43.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Destiny 3]'/ae2:spatial_storage
+[10Dec2024 15:02:43.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Destiny 3): All chunks are saved
+[10Dec2024 15:02:43.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10Dec2024 15:02:43.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10Dec2024 15:02:43.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[10Dec2024 15:02:43.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10Dec2024 15:02:43.331] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
